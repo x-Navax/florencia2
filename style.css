@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #ffefd3;
+    padding: 0;
+}
+header {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
+    align-items: center;   /* Centra horizontalmente los elementos */
+}
+main {
+    display: flex;
+    flex-direction: column; /* Asegura que los elementos estén uno debajo del otro */
+    align-items: center;   /* Centra horizontalmente los elementos */
+}
+
+
+.fecha{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.ubiRio{
+    width: 100%;
+    height: auto;
+   
+    text-align: center; 
+    
+}
+.vestimenta{
+    width: 100%;
+    height: auto;
+    
+    text-align: center;
+     
+}
+.alias{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.asistencia {
+    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-size: 2rem;
+    color: #BC0000;
+    text-align: center;
+    margin-top: -400px;
+}
+
+
+.botonW img {
+    width: 1rem;
+}
+
+.botonW {
+    display: flex;
+    justify-content: center;
+}
+
+.marca{ margin-top: 30px;
+    margin-bottom: 10px;
+
+}
+.marca a {
+    text-decoration: none;
+}
+.marca a span {
+  color: #000;
+  text-decoration: none; /* también sirve acá */
+}
+
+.marca span:hover {
+  color: purple; /* opcional: cambia al pasar el mouse */
+}
+.mar a:hover {
+  color: purple; /* opcional: cambia al pasar el mouse */
+}
+
+
+.logoInsta {
+    width: 1.3rem;
+}
+
+/* Estilos específicos para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    #bg {
+        height: auto; /* Permite que el contenido se ajuste al tamaño */
+        padding: 1rem;
+    }
+
+    .asistencia {
+        font-size: 1.5rem; /* Reduce el tamaño de la fuente */
+    }
+
+    .botonW img {
+        width: 6rem; /* Reduce el tamaño del botón de WhatsApp */
+    }
+}
+
+@media (max-width: 480px) {
+    .asistencia {
+        font-size: 1.2rem; /* Tamaño de fuente aún menor para pantallas muy pequeñas */
+    }
+
+    .botonW img {
+        width: 6rem; /* Ajusta el tamaño del botón de WhatsApp */
+    }
+}
